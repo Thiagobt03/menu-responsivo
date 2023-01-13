@@ -1,0 +1,35 @@
+@media(max-width: 425px){
+    .header{
+        display: block;
+    }
+    
+    .logo{
+        justify-content: center;
+        padding: 0;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .texto-principal{
+        font-size: 4rem;
+        margin: 0;
+    }
+
+    .menu{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        margin-top: 30px;
+    }
+
+    .menu li{
+        font-size: 4rem;
+        padding: 17px 40px;
+    }
+
+    .menu li a.cadastre-se{
+        font-size: 2rem;
+        padding: 15px 23px;
+    }
+}

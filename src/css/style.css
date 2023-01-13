@@ -1,0 +1,62 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+}
+
+.logo{
+    padding-left: 15px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    padding: 0 20px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a{
+    display: flex;
+    align-items: center;
+}
+
+.texto-principal{
+    display: flex;
+    padding-left: 5px;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+}
+
+.menu li a{
+    padding: 10px 5px;
+    display: flex;
+    margin-left: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.menu li a:hover{
+    background-color: #5BC241;
+    color: #FFFFFF;
+}
+
+.menu li a.cadastre-se{
+    background-color: #5BC241;
+    border-radius: 10px;
+    color: #FFFFFF;
+    margin-left: 2rem;
+    padding: 10px 20px;
+}

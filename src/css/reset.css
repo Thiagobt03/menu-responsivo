@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+a{
+    color: #000000;
+    margin: 0;
+    text-decoration:none
+}
